@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package demo;
+
+import "google/protobuf/struct.proto";
+
+message WorkingMessage {
+   string id = 3;
+   int32  number = 4;
+
+   google.protobuf.Value value = 10;
+}
+
+message IssueMessage {
+   string id = 3;
+   int32  number = 4;
+
+   google.protobuf.Value value = 10;
+   
+   map<string, google.protobuf.Value> attributes = 11;
+}

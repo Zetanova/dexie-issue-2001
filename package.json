@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@bufbuild/protobuf": "^1.9.0",
+    "dexie": "^4.0.7"
+  },
+  "devDependencies": {
+    "@bufbuild/buf": "^1.32.1",
+    "@bufbuild/protoc-gen-es": "^1.9.0",
+    "typescript": "^5.4.5"
+  }
+}
